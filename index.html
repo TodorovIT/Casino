@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="bg">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Слот машина</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <br>
+    <div class="slot-machine">
+        
+        <h1>Слот машина с плодове</h1>
+        <div class="reels">
+            <div class="reel" id="reel1"></div>
+            <div class="reel" id="reel2"></div>
+            <div class="reel" id="reel3"></div>
+        </div>
+        <div class="bet-buttons">
+            <button class="betButton" data-bet="1">Залог 1лв.</button>
+            <button class="betButton" data-bet="5">Залог 5лв.</button>
+            <button class="betButton" data-bet="10">Залог 10лв.</button>
+            <button class="betButton" data-bet="20">Залог 20лв.</button>
+        </div>
+        <button id="spinButton">Завърти</button>
+        <p id="resultMessage"></p>
+    </div>
+
+    <div class="description">
+        <h2>Описание на печалбите</h2>
+        <p><strong>🍒 Череши:</strong> 20% шанс за печалба, 2x залога</p>
+        <p><strong>🍋 Лимони:</strong> 15% шанс за печалба, 2.5x залога</p>
+        <p><strong>🍌 Банан:</strong> 10% шанс за печалба, 3x залога</p>
+        <p><strong>🍉 Диня:</strong> 8% шанс за печалба, 5x залога</p>
+        <p><strong>🍇 Грозде:</strong> 5% шанс за печалба, 10x залога</p>
+        <p><strong>🍊Портокали:</strong> 2% шанс за печалба, 100x залога</p>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
